@@ -1,0 +1,38 @@
+/* src/styles/CreateNote.css */
+.create-note {
+  margin-top: 20px;
+}
+
+.create-note input,
+.create-note textarea,
+.create-note button {
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+}
+
+.create-note textarea {
+  height: 60px;
+  resize: none;
+}
+
+.create-note .color-options {
+  display: flex;
+  gap: 5px;
+}
+
+.create-note label {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.create-note input[type="radio"] {
+  position: absolute;
+  visibility: hidden;
+}
+
+.create-note input[type="radio"]:checked + label {
+  border: 2px solid #333;
+}

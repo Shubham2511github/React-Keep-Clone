@@ -1,0 +1,10 @@
+/* src/styles/NoteList.css */
+.note-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+  }
+  
+  
+  
